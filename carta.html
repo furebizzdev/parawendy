@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>by furebizzdev</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cartinha">
+    <h1>Para a Pessoa que Eu Amo</h1>
+    <h2>Dedico minha vida a você</h2>
+
+    <p id="texto">
+Seus olhos são como paisagens calmas, daquelas que tem uma beleza indescritivel.
+Seu cabelo cacheado são como as ondas do mar, belos.
+A sua face e como um relogio hipnotizador, e ela conseguiu me hipnotizar.
+Seu corpo é unico, cada curva tão bem definida, parece algo inexplicavel.
+Tudo isso junto gera um ser humano perfeito, e ele é você
+    </p>
+
+    <div class="acoes">
+      <button onclick="tocarMusica()">🎵 Ouvir música</button>
+    </div>
+
+    <audio id="musica" src="musica.mp3"></audio>
+  </div>
+
+  <script>
+    function tocarMusica() {
+      const musica = document.getElementById('musica');
+      musica.play();
+    }
+  </script>
+</body>
+</html>
+
